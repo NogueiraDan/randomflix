@@ -1,0 +1,47 @@
+.itemContainer{
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+.imageContainer{
+  padding: 20px 20px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#imageMovie{
+  width: 60%;
+  height: 75%;
+}
+
+.descriptionContainer{
+  width: 50%;
+  padding: 20px 0 0 0;
+
+}
+
+.descriptionContainer, #title{
+  margin-bottom: 20px;
+
+}
+
+.divButton{
+  display: flex;
+  justify-content: center;
+}
+
+#btnRandom{
+  width: 15%;
+  background: #dcd6d6;
+  height: 45px;
+  margin-top: 50px;
+  font-family: "Poppins";
+  border: unset 1px #ada9a9;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  margin:  0;
+  align-items: center;
+}
