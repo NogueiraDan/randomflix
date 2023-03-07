@@ -1,38 +1,39 @@
-.itemContainer{
+.itemContainer {
   display: flex;
   width: 80%;
   height: auto;
 }
 
-.imageContainer{
+.imageContainer {
   padding: 20px 20px 0 0;
   display: flex;
   justify-content: flex-end;
   width: 50%;
 }
 
-#imageMovie{
+#imageMovie {
   width: 60%;
   height: 75%;
 }
 
-.descriptionContainer{
+.descriptionContainer {
   width: 50%;
   padding: 20px 0 0 0;
 
 }
 
-.descriptionContainer, #title{
+.descriptionContainer,
+#title {
   margin-bottom: 20px;
 
 }
 
-.divButton{
+.divButton {
   display: flex;
   justify-content: center;
 }
 
-#btnRandom{
+#btnRandom {
   width: 15%;
   background: #dcd6d6;
   height: 45px;
@@ -42,6 +43,40 @@
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
-  margin:  0;
+  margin: 0;
   align-items: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .itemContainer {
+    width: 100%;
+  }
+
+  #btnRandom {
+    width: 50%;
+  }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 768px){
+  .itemContainer{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .descriptionContainer{
+    width: 100%;
+  }
+
+  .imageContainer, #imageMovie{
+    width: 100%;
+  }
+
+  #btnRandom, .subTitle{
+    width: 80%;
+  }
+
 }

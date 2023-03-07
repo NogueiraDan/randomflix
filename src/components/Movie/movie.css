@@ -17,3 +17,13 @@
   font-size: 14px;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .itemContainer{
+    width: 100%;
+  }
+  .imageContainer #imageMovie{
+    width: 100%;
+  }
+ 
+}
