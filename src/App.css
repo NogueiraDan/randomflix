@@ -8,11 +8,27 @@
   --font: "Poppins"
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background);
+  border-radius: 20px;
+}
+
+
+::-webkit-scrollbar-track{
+  background: rgb(63, 3, 3);
+} 
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
 
 .App{
   min-height: 100vh;
